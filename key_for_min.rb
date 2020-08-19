@@ -34,7 +34,7 @@ def key_for_min_value(name_hash)
   
   name_hash.each do |key, value|
     if lowest_value == value
-      return key
+      p key
       # binding.pry
     end
   end
