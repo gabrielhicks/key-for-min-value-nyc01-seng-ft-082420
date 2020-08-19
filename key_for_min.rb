@@ -34,7 +34,8 @@ def key_for_min_value(name_hash)
   
   name_hash.each do |key, value|
     if lowest_value == value
-      p key
+      lowest = key
     end
   end
+  lowest
 end
